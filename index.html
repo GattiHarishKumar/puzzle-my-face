@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Puzzle My Face 🧩</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Puzzle My Face 🧩</h1>
+    <div class="controls">
+      <input type="file" id="imageInput" accept="image/*" />
+      <button id="startBtn">Start Puzzle</button>
+    </div>
+    <div class="status-bar">
+      <div id="timer">⏱ Time: 0s</div>
+      <div id="moves">🎯 Moves: 0</div>
+    </div>
+    <canvas id="canvas" style="display: none;"></canvas>
+    <div id="puzzleContainer"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
